@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+header {
+    padding: 0 20px;
+    width: 100%;
+    height: 70px;
+    background: white;
+    border-bottom: 1px solid #efefef;
+}
+.header-left, .header-right {
+    float: left;
+    height: 100%;
+}
+.header-left {
+    width: 40%;
+}
+.header-right {
+    width: 60%;
+}
+.header-left {
+    line-height: 70px;
+}
+.header-left a{
+  text-decoration: none;
+  color: gray;
+  padding-left: 20px
+}
+
+.header-right ul {
+    list-style: none;
+    height: 100%;
+    text-align: right;
+}
+.header-right ul li {
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 70px;
+    height: 100%;
+}
+.header-right ul li a {
+    color: #565A5C;
+    text-decoration: none;
+}
+.header-right ul li a.cta {
+    color: white;
+    background-color: purple;
+    border-radius: 20px;
+    padding: 10px 20px
+}
+
+
+
+.tariffa_sm{
+  background-color: lightgrey;
+  height: 200px;
+  width: 100px;
+  margin-left: 1250px;
+  float: left;
+  display: none;
+}
+
+.conti_sm{
+  background-color: lightgrey;
+  height: 200px;
+  width: 100px;
+  float: left;
+  margin-left: 1360px;
+  display: none;
+}
+
+.prodotti_sm{
+  background-color: lightgrey;
+  height: 200px;
+  width: 100px;
+  float:left;
+    margin-left: 1445px;
+  display: none;
+}
+
+.azienda_sm{
+  background-color: lightgrey;
+  height: 200px;
+  width: 100px;
+  float:left;
+  margin-left: 1545px;
+  display: none;
+}
+.aiuto_sm{
+  background-color: lightgrey;
+  height: 200px;
+  width: 100px;
+  float:left;
+  margin-left: 1645px;
+  display: none;
+}
+
+
+
+
+
+main ul li a{
+  text-decoration: none;
+}
+main ul li{
+  list-style: none;
+  margin-left: 25px
+}
+
+
+
+
+/*.hamburger-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: #2B3F58;
+}
+.hamburger-menu ul {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+}
+.hamburger-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 2px solid white;
+}
+.close {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}*/
